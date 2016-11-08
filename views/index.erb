@@ -1,0 +1,38 @@
+<h2>Request a scoped token from your endpoint</h2>
+
+<form class="pure-form pure-form-aligned" action="/auth" method="get">
+  <fieldset>
+
+    <div class="pure-control-group">
+      <label for="me">My website (me)</label>
+      <input id="me" name="me" class="pure-input-1-2" type="url"
+        placeholder="https://" required>
+    </div>
+
+    <div class="pure-control-group">
+      <label for="authorization_endpoint">Authorization endpoint</label>
+      <input id="authorization_endpoint" name="authorization_endpoint"
+        class="pure-input-1-2" type="url" value="https://indieauth.com/auth"
+        required>
+    </div>
+
+    <div class="pure-control-group">
+      <label for="token_endpoint">Token endpoint</label>
+      <input id="token_endpoint" name="token_endpoint" class="pure-input-1-2"
+        type="url" value="https://tokens.indieauth.com/token" required>
+    </div>
+
+    <div class="pure-control-group">
+      <label for="scope">Scope(s)</label>
+      <input id="scope" name="scope" class="pure-input-1-3" type="text"
+        placeholder="e.g. post" required>
+    </div>
+
+    <div class="pure-controls">
+      <button type="submit" class="pure-button pure-button-primary">
+        Request token
+      </button>
+    </div>
+
+  </fieldset>
+</form>
