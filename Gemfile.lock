@@ -17,7 +17,7 @@ GEM
     multi_xml (0.6.0)
     mustermann (1.0.2)
     puma (3.12.6)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-contrib (2.0.1)
       rack (~> 2.0)
     rack-protection (2.0.3)
